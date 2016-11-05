@@ -11,6 +11,6 @@ Developped with OpenCV 2.*
 ## How to use
 
 You must have openCV installed. Then, execute those commands at the root project folder :
-`cmake .
-make
-./Main`test
+```cmake .
+make Main
+./Main```
