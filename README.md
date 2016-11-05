@@ -1,13 +1,15 @@
 # Stabilisation-For-Soccer-Game
 
-## Description
 This is a code snippet from a project aiming to highlight events in soccer game videos.
 It uses the characteristics of a soccer game video to separate camera movements and subject movements.
 
 The main algorithm based on an optical flow analysis can then be more accurate by analyzing players movements without the noise infered by camera movements
 
-Developped with OpenCV 2
-Event highlight algorithm and video samples are not included in this repo.
+Developped with OpenCV 2.
+
+Note: event highlighting algorithm and video samples are not included in this repo.
+
+
 
 ## How to use it
 
@@ -17,6 +19,8 @@ cmake .
 make Main
 ./Main
 ```
+
+
 ## Some results
 
 This is the kind of video frame I've been working with. Low quality images, with compression artifacts :
@@ -49,8 +53,3 @@ Here is the results of the event highlight algorithm after video stabilisation :
 ![](https://github.com/maximetouroute/Video-Stabilisation-For-Soccer-Game/blob/master/img/8.png)
 
 False detections are less proeminent, and game events now jump out of the frame ! :soccer:
-
-
-
-
-
