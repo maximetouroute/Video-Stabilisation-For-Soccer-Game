@@ -1,8 +1,8 @@
-# Stabilisation-For-Soccer-Game
+# Video Stabilisation For Soccer Game
 
-This is a code snippet from a project aiming to highlight events in soccer game videos. This snippet aims separate camera movements and subject movements based on the common characteristics of every soccer game video.
+This is a code snippet from a project aiming to highlight events in soccer game videos. This snippet separate camera movements and subject movements based on the common characteristics of every soccer game video.
 
-The main algorithm based on an optical flow analysis can then be more accurate by analyzing players movements without the noise infered by camera movements
+The main algorithm based on an optical flow analysis can then be more accurate by analyzing players movements without the noise infered by camera movements.
 
 Developped with OpenCV 2.
 
